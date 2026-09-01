@@ -19,10 +19,17 @@ app.get('/', (req, res) => {
   res.render('index');
 })
 
-// Llama al index 
-app.get('/servicio', (req, res) => {
-  res.render('servicio')
-});
+app.get('/servicios',(req, res) => {
+  res.render('servicio' )
+})
+
+app.get('/nosotros',(req, res) => {
+  res.render('nosotros' )
+})
+
+app.get('/contacto',(req, res) => {
+  res.render('contacto' )
+})
 
 
 // levantar servidor 
