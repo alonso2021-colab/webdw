@@ -1,0 +1,21 @@
+{
+    
+    
+    "background.enabled": true,
+
+    "background.editor": {
+        "useFront": false,
+        "style": {
+            "background-position": "90% center",
+            "background-size": "contain",
+            "background-repeat": "no-repeat",
+            "opacity": 10
+        },
+        "images": [
+            "C:/Users/geldr/OneDrive/Desktop/fondos/nino.png"
+        ],
+        "interval": 0,
+        "random": false
+    }
+
+}
