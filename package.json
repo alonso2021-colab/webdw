@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/alonso2021-colab/webdw#readme",
   "dependencies": {
+    "dotenv": "^17.4.2",
     "ejs": "^6.0.1",
     "express": "^5.2.1"
   },

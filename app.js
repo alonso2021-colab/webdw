@@ -1,11 +1,15 @@
 // Paso 1. 
+require('dotenv').config();
 const express = require('express')
+
 const path = require('path');
 // paso 2.
 const app = express();
 
 // paso 3.
-const port = 3000;
+const port = process.env.port;
+
+
 
 // paso 4. 
 app.set('view engine', 'ejs')
