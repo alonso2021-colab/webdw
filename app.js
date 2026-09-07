@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/servicios',(req, res) => {
-  res.render('servicio' )
+  res.render('servicios' )
 })
 
 app.get('/nosotros',(req, res) => {

@@ -1,0 +1,14 @@
+body{
+    font-family: ariel, Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.hero {
+    min-height: 80vh;
+
+}
+
+.hero-icon{
+    font-size: 15rem;
+    color: blue;
+}
