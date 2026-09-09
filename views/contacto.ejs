@@ -24,6 +24,14 @@
 
 <section class="container py-5">
 
+    <% if (mensajeExito) {%>
+        <div class="alert alert-sucess">
+            <i class="bi bi-check-circle me-2">
+                <%= mensajeExito %>
+            </i>
+        </div>
+
+    <%}%>
 
     <div class="row justify-content-center">
 
@@ -36,7 +44,7 @@
                 <div class="card-body p-5">
 
 
-                    <form>
+                    <form action="/contacto" method="post">
 
 
                         <div class="mb-3">
@@ -46,6 +54,7 @@
                             </label>
 
                             <input
+                                name="nombre"
                                 type="text"
                                 class="form-control"
                                 placeholder="Tu nombre">
@@ -60,6 +69,7 @@
                             </label>
 
                             <input
+                                name="correo"
                                 type="email"
                                 class="form-control"
                                 placeholder="correo@ejemplo.com">
@@ -74,6 +84,7 @@
                             </label>
 
                             <input
+                                name="Asunto"
                                 type="text"
                                 class="form-control"
                                 placeholder="¿En qué podemos ayudarte?">
@@ -88,6 +99,7 @@
                             </label>
 
                             <textarea
+                                name="mensaje"
                                 class="form-control"
                                 rows="5"
                                 placeholder="Cuéntanos sobre tu proyecto">
